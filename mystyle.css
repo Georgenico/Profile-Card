@@ -9,7 +9,7 @@
 Very dark desaturated blue: hsl(229, 23%, 23%)
 Dark grayish blue: hsl(227, 10%, 46%) */
 
-.big-container {
+body {
   background-color: hsl(185, 75%, 39%);
   width: 100%;
   display: flex;
@@ -74,4 +74,19 @@ Dark grayish blue: hsl(227, 10%, 46%) */
 
 .font-weight-600 {
   font-weight: 600;
+}
+
+.top {
+  position: absolute;
+  right: 50%;
+  bottom: 35%;
+  z-index: -1;
+  width: 60%;
+}
+.bottom {
+  position: fixed;
+  left: 40%;
+  top: 53%;
+  z-index: -1;
+  width: 80%;
 }
